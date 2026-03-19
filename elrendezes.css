@@ -1,0 +1,41 @@
+*{
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+.instakep{
+    width: 3%;
+    height: 3%;
+}
+nav ul{
+    display: grid;
+    position:absolute;
+    grid-template-columns: 1fr 17fr;
+    gap: 10px;
+    top: 2%;
+    margin-left: 5%;
+}
+.valaszto{
+    display: grid;
+    grid-template-columns: 2fr 98fr;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+aside{
+    text-align:center ;
+}
+.adatok{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
