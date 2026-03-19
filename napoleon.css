@@ -1,0 +1,21 @@
+body {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.csinos {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 60px;
+    margin-top: 40px;
+    
+}
+
+
+
+.profile {
+  width: 600px;
+  height: 650px;
+  border-radius: 30px;
+  margin-right: 20px;
+  border: 4px solid #000000;
+}
