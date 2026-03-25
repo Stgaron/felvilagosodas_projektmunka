@@ -7,6 +7,7 @@
 }
 img {
     width: 100%;
+    height: 100%;
 }
 .instakep{
     width: 3%;
@@ -17,7 +18,7 @@ nav ul{
     position:absolute;
     grid-template-columns: 1fr 17fr;
     gap: 10px;
-    top: 2%;
+    top: 0%;
     margin-left: 5%;
 }
 .valaszto{
@@ -38,4 +39,14 @@ aside{
 .adatok{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width:800px) {
+    article section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:600px) {
+    article section{
+        grid-template-columns: 1fr;
+    }
 }
