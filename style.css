@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+*{
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: gray;
+}
+a:hover{
+    color: white    
+}
+.profilszoveg{
+    padding: 10px;
+}
+.profilszoveg li{
+    margin: 1vw;
+}
+aside p{
+    color: black;
+    font-size: 1px;
+}
+aside:hover{
+    p{
+        color: white;
+        font-size: 1vw;
+    }
+}

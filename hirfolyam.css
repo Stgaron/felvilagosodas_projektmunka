@@ -1,8 +1,15 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 *{
     list-style-type: none;
     box-sizing: border-box;
     text-decoration: none;
     padding: 0;
+    p{
+        font-size: 1vw;
+    }
 }
 img {
     width: 100%;
@@ -30,14 +37,6 @@ nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    margin: 1vw;
-    padding: 1vw;
-}
 aside{
     margin-top: 200px;
     font-size: 50px;
@@ -50,13 +49,26 @@ aside li{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-@media screen and (max-width:800px) {
-    article section{
-        grid-template-columns: 1fr 1fr;
-    }
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-@media screen and (max-width:600px) {
-    article section{
-        grid-template-columns: 1fr;
-    }
+article{
+    margin: 1vw ;
+}
+.profilkepeskoveto img{
+    height: 40vw;
+    width: 25vw;
+}
+.profilkepeskoveto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+}
+.valaszkomment{
+    margin-left: 2vw;
+    font-size: 0.75vw;
+}
+article{
+    font-size: 1vw;
 }
