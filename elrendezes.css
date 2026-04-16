@@ -63,3 +63,6 @@ aside li{
         grid-template-columns: 1fr;
     }
 }
+li p{
+    position: absolute;
+}
