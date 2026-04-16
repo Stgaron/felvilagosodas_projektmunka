@@ -55,17 +55,8 @@ aside li{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 article{
     margin: 1vw ;
-}
-.profilkepeskoveto{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2vw;
 }
 .valaszkomment{
     margin-left: 2vw;
