@@ -14,6 +14,9 @@ section{
 li p{
     position: absolute;
 }
+.profilkepeskoveto img{
+    height: auto;
+}
 img {
     width: 100%;
     height: 100%;
@@ -58,10 +61,6 @@ section{
 }
 article{
     margin: 1vw ;
-}
-.profilkepeskoveto img{
-    height: 40vw;
-    width: 25vw;
 }
 .profilkepeskoveto{
     display: grid;

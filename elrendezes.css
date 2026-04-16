@@ -37,6 +37,7 @@ section{
     gap: 10px;
     margin: 1vw;
     padding: 1vw;
+    height: auto;
 }
 aside{
     margin-top: 200px;
@@ -45,6 +46,9 @@ aside{
 aside li{
     padding-top: 30px;
     margin: 0;
+}
+.profilkepeskoveto img{
+    height: auto;
 }
 .adatok{
     display: grid;
