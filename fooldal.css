@@ -1,85 +1,139 @@
-* {
+body {
+    background-color: rgb(14, 14, 14);
     margin: 0;
-    padding: 0;
+}
+
+* {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
 
-body {
-    background: #f0f0f0;
-    font-family: sans-serif;
-}
-
-.container {
+.insta {
     display: grid;
-    grid-template-columns: 150px 1fr;
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 
-        "fej fej"
-        "test tartalom";
+    grid-template-columns: 200px 1fr;
     height: 100vh;
 }
 
-.header {
-    grid-area: fej;
-    background: white;
-    border-bottom: 1px solid gray;
-    padding: 15px;
-    width: 100%;
-}
 
-.menu {
-    grid-area: test;
-    background: white;
+.aside {
     border-right: 1px solid gray;
-    padding: 10px;
-}
-
-.menu p {
-    margin-bottom: 15px;
-}
-
-.valami {
-    grid-area: tartalom;
     padding: 20px;
 }
 
-.post {
-    background: white;
+.logo {
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
     margin-bottom: 20px;
-    padding: 15px;
-    border: 1px solid gray;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+
+.profil {
+    padding: 20px;
+    max-width: 700px;
+    margin-left: 200px;
+}
+
+
+.sztorik {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 380px;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.story {
+    text-align: center;
+}
+
+.story img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(45deg, red, orange, yellow, indigo, red) border-box;
+}
+
+.story p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
+.posztok {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
     max-width: 500px;
 }
 
-.comment {
-    background-color: white;
-    padding: 15px;
+.post {
     border: 1px solid gray;
-    max-width: 480px;
-    margin-top: 10px;
 }
 
-.hal {
-    color: blue;
+
+.post-header {
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
-@media (max-width: 700px) {
-    .container {
+
+.post-img {
+    height: 300px;
+    border-top: 1px solid gray;
+    text-align: center;
+    height: 300px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .insta   {
         grid-template-columns: 1fr;
-        grid-template-areas: 
-            "fej"
-            "test"
-            "tartalom";
     }
-    
-    .post {
-        width: 95%;
-        margin: 10px auto;
+
+    .aside{
+        border-right: none;
+        border-bottom: 1px solid gray;
+    }
+
+    .profil {
+        margin-left: 0;
+    }
+
+    .posztok {
+        max-width: 100%;
+    }
+
+    .post-img {
+        height: 250px;
     }
 }
