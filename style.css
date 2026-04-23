@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 *{
     color: white;
@@ -10,10 +10,14 @@ a{
     color: gray;
 }
 a:hover{
-    color: white    
+    color: white
 }
 .profilszoveg{
     padding: 10px;
+    margin: 10px;
+}
+aside{
+    margin-right: 50px;
 }
 .profilszoveg li{
     margin: 1vw;
