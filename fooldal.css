@@ -138,11 +138,12 @@ a:hover {
     }
 
     .posztok {
-        max-width: 100%;
+        max-width: 1vw;
     }
 
     .post-img {
         height: 250px;
+        margin: 50px;
     }
 
     .postington-img {
