@@ -94,7 +94,7 @@ a:hover {
 .post-header {
     display: grid;
     grid-template-columns: 40px auto;
-    align-items: center;
+    margin: auto;
     padding: 10px;
     gap: 10px;
 }
