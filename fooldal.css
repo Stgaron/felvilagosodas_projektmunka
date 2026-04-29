@@ -113,13 +113,6 @@ a:hover {
     height: 300px;
 }
 
-.postington-img {
-    margin: 15px;
-}
-
-.postington-img p {
-    margin-left: 150px;
-}
 
 
 @media (max-width: 600px) {
@@ -146,7 +139,4 @@ a:hover {
         margin: 50px;
     }
 
-    .postington-img {
-        height: 250;
-    }
 }
